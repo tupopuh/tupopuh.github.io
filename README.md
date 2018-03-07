@@ -1,4 +1,3 @@
 # tupopuh.github.io
 Hello, world!
-ghjggj
-gjjgkg
+ну-ка привет

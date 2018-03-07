@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* чтобы обернуть в коммент нажми Ctrl и / */
+
+header {
+    position: relative;
+    height: 70px;
+    background: #0082c3
+    }
+
+nav {
+    width: 200px;
+    background-color: white;
+
+}
+
+.logo {
+    width: 250px;
+    position: absolute;
+    left: 10px;
+}
+
+li {
+    list-style-type: none;
+   }
+
+ul {
+    margin: 3px;
+    padding-left: 0;
+   }
+
+h1 {
+    margin: 10px;
+}
+
+h2 {
+    margin: 10px;
+}
+
+h3 {
+    margin: 10px;
+}
+
+
+
+.komplekt-picture {
+    width: 150px;
+    padding: 10px;
+}
+
+.washing {
+    width: 40px;
+}
+
+table, tr, td {
+    border: 1px solid black;
+    font-size: small;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+.panel {
+    height: 80%;
+    position: relative;
+    left: 350px;
+    top: 7px;
+}
+
+main {
+    width: 100%;
+      margin: 0 10px;
+}
+
+.main-container {
+    width: 80%;
+    margin: 0px;
+}
+
+aside {
+    width: 1000px;
+}
+
+.discription {
+    font-family: Cambria, serif
+}
+
+    footer {
+    height: 50px;
+    background: rgb(222, 222, 223)
+    }
+
+.container {
+    display: flex;
+    padding: 10px;
+}
+
+.central-container {
+    width: 80%;
+    display: inline-block;
+    border-radius: 5px;       
+}
+
+.left-container {
+    width: 10%;
+    font-size: 30px; 
+    color: rgb(8, 8, 8);
+}
+
+.right-container {
+    width: 10%;
+    font-size: 30px; 
+    color: rgb(8, 8, 8);
+}
+
+.the-biggest-container {
+     display: flex;
+    margin: 0 auto;
+}

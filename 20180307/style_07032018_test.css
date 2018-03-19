@@ -1,0 +1,86 @@
+
+/* чтобы обернуть в коммент нажми Ctrl и / */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.logo {
+    height: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu {
+    padding: 13px;
+    font-size: 17px;
+}
+
+.intro {
+    position: relative;
+    display: flex;
+}
+
+.intro-video-container {
+    height: 300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+}
+
+.intro-content {
+    display: flex;
+    max-width: 980px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    text-align: left;
+}
+
+.feature-list-items {
+    display: flex;
+}
+
+
+
+.intro {
+    position: relative;
+    /* display: flex; */
+    height: 500px;
+    background: #e7e6e8;
+    overflow: hidden;
+}
+
+.intro-content {
+    /* display: flex; */
+    width: 50%;
+    /* margin: 0 auto; */
+    position: absolute;
+    z-index: 2;
+    text-align: left;
+    top: 60px;
+    left: 190px;
+}
+
+.intro-video-container {
+    /* height: 300px; */
+    position: absolute;
+    top: -190px;
+    right: 260px;
+    /* bottom: 0; */
+    z-index: 1;
+    width: 80%;
+    /* display: flex; */
+}
+
+

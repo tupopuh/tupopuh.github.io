@@ -1,0 +1,57 @@
+table {
+  border-collapse: collapse;
+  margin: auto;
+  background: #fdd7cd;
+}
+
+table, th, td {
+  border: 1px solid black;
+  color: rgb(77, 70, 70);
+}
+
+tr {
+  height: 30px;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  background: #fafdcd;
+}
+
+th {
+  word-break: break-all;
+}
+
+td.forLayout {
+  height: 100px;
+  width: 200px;
+  word-break: break-all;
+  text-align: center;
+  font-size: 20px;
+
+}
+
+header {
+  background: #f9cdfd;
+  text-align: center;
+}
+
+main {
+  background: #b6abeb;
+  display: flex;
+  height: 100%;
+}
+
+footer {
+  background: #d3fdcd;
+  text-align: center;
+}
+
+.container {
+  vertical-align: middle;
+  background: #cdf2fd;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+}

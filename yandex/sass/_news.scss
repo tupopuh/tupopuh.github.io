@@ -1,0 +1,56 @@
+.news {
+
+    // Tabs
+    &-tab {
+        margin-right: 12px;
+        font-size: 18px; color: #6da2e1;
+
+        &.active {
+            color: #0054b9;
+        }
+    }
+    &-datetime {
+        font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif;
+    }
+
+    // News links
+    &-list {
+        margin: 10px 0 0 0; padding: 0;
+        list-style: none; counter-reset: news-list-counter;
+
+        &-moscow {
+            display: none;
+        }
+
+        li {
+            position: relative;
+            margin-bottom: 10px;
+        }
+
+        li:before {
+            content: counter(news-list-counter)".";
+            counter-increment: news-list-counter;
+            position: absolute;
+            font: 85%/144% Verdana,sans-serif;
+            left: -18px;
+        }
+
+        a {
+            color: #000;
+        }
+    }
+
+    // Stocks
+    &-stocks {
+        font-size: 12px;
+
+        > span {
+            margin-right: 15px;
+        }
+
+        b {
+            letter-spacing: 1px;
+        }
+    }
+
+}

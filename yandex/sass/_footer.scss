@@ -1,0 +1,9 @@
+footer {
+    margin-top: 30px; margin-bottom: 20px;
+
+    a, span {
+        margin-right: 16px;
+        color: #999;
+        transition: color .15s ease-out;
+    }
+}

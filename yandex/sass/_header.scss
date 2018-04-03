@@ -1,0 +1,16 @@
+header {
+    margin-top: 20px; margin-bottom: 30px;
+
+    a {
+        margin-right: 20px;
+        color: #000;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    .profile::first-letter {
+        color: red !important;
+    }
+}
